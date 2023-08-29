@@ -23,3 +23,9 @@ maximum gpa for a group with the same dname. Only if the average gpa is over 3.5
 Given example data below, this project finds dominant set of tuples.
 ![db4](https://github.com/dipreez/Simple-MapReduce/assets/50349104/29b5676d-eb97-421f-99f9-b2d3dc010537)
 ## Mapper
+Name is key, and price and distance are values.
+![db5](https://github.com/dipreez/Simple-MapReduce/assets/50349104/e0715611-8a59-4571-8278-3ea1b7085056)
+## Reducer
+Use For loop to access each tuple and inspect for the presence of dominant tuples for that tuple. The reducer
+will output only if no dominant tuples are found.
+![db6](https://github.com/dipreez/Simple-MapReduce/assets/50349104/21374122-ad5b-40b6-86e6-610228df1207)
